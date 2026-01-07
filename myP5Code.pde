@@ -23,8 +23,18 @@ void draw(){
   fill(255, 255, 255); // for the whites of the eyes!
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
-  
 
+Var eyeSize = 40;
+
+//eyeSize
+fill(255,255,0)
+ellipse(x-50,50,eyeSize,eyeSize)
+ellipse(x+50,50,eyeSize,eyeSize)
+   //face
+fill(252, 65, 65)
+ellipse(x+10,120,140,50)
+
+x = mouseX
 }
 
 
@@ -32,8 +42,8 @@ void draw(){
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
 
-var fillR = 255;
-var fillG = 0;
+var fillR = 155;
+var fillG = 100;
 var fillB = 255;
 
 //🟡Mouse Pressed Procedue - Runs When Mouse is Pressed on Canvas
